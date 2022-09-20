@@ -1,0 +1,106 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+body {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px red solid;
+  min-width: 370px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-width: 50%;
+    max-width: 100%;
+  }
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.notifications_list {
+  display: flex;
+  flex-direction: column;
+}
+.info_message {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: Roboto;
+  min-width: 300px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.success_message {
+  background-color: green;
+  color: #ffffff;
+  font-family: Roboto;
+  min-width: 300px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.warning_message {
+  background-color: #ffb800;
+  color: #ffffff;
+  font-family: Roboto;
+  min-width: 300px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.danger_message {
+  background-color: red;
+  color: #ffffff;
+  font-family: Roboto;
+  min-width: 300px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+.message {
+  margin-left: 15px;
+}
